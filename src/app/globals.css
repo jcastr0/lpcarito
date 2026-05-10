@@ -10,12 +10,13 @@
   --color-carbon: #252030;
   --color-carbon-light: #3D3648;
   --color-gold: #C9935A;
+  --color-gold-dark: #8A6A3A;
   --color-gold-light: #D9AD7E;
   --color-white: #FFFFFF;
   --color-teal: #6B8F8D;
   --color-teal-light: #8AABA9;
 
-  --font-playfair: var(--font-playfair);
+  --font-heading: var(--font-heading);
   --font-poppins: var(--font-poppins);
 
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);

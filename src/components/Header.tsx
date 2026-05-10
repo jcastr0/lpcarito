@@ -28,7 +28,7 @@ export default function Header() {
       } rounded-full`}
     >
       <nav className="px-6 py-3 flex items-center justify-between">
-        <a href="/" className="font-playfair text-xl font-bold text-carbon tracking-tight">
+        <a href="/" className="font-heading text-xl font-bold text-carbon tracking-tight">
           Carolina <span className="text-sage">Granados</span>
         </a>
 

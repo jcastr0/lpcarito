@@ -36,20 +36,20 @@ export default function Experiencia() {
   const containerRef = useScrollReveal();
 
   return (
-    <section id="experiencia" className="py-32 bg-beige-light" ref={containerRef}>
+    <section id="experiencia" className="py-24 bg-beige-light" ref={containerRef}>
       <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-20" data-reveal>
-          <p className="text-gold font-semibold text-[10px] tracking-[0.2em] uppercase mb-5">
+        <div className="mb-16" data-reveal>
+          <p className="text-gold-dark font-semibold text-[10px] tracking-[0.2em] uppercase mb-5">
             Trayectoria
           </p>
-          <h2 className="font-playfair text-3xl md:text-[2.75rem] font-bold text-carbon leading-tight">
+          <h2 className="font-heading text-3xl md:text-[2.75rem] font-bold text-carbon leading-tight">
             Experiencia y Formación
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-20">
           <div className="space-y-10">
-            <h3 className="font-playfair text-2xl font-bold text-carbon flex items-center gap-4" data-reveal>
+            <h3 className="font-heading text-2xl font-bold text-carbon flex items-center gap-4" data-reveal>
               <span className="w-12 h-[1px] bg-sage" />
               Experiencia
             </h3>
@@ -63,7 +63,7 @@ export default function Experiencia() {
                 >
                   <div className="absolute left-[-5px] top-1.5 w-[9px] h-[9px] rounded-full bg-sage ring-4 ring-beige-light" />
                   <p className="text-sage font-semibold text-xs tracking-wide mb-1.5">{exp.periodo}</p>
-                  <h4 className="font-playfair text-lg font-bold text-carbon mb-2">
+                  <h4 className="font-heading text-lg font-bold text-carbon mb-2">
                     {exp.titulo}
                   </h4>
                   <p className="text-carbon/70 text-sm leading-relaxed">
@@ -75,7 +75,7 @@ export default function Experiencia() {
           </div>
 
           <div className="space-y-10">
-            <h3 className="font-playfair text-2xl font-bold text-carbon flex items-center gap-4" data-reveal>
+            <h3 className="font-heading text-2xl font-bold text-carbon flex items-center gap-4" data-reveal>
               <span className="w-12 h-[1px] bg-gold" />
               Formación
             </h3>

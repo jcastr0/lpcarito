@@ -14,9 +14,8 @@ export default function Hero() {
             Estrategia · Comunicación · Liderazgo
           </div>
 
-          <h1 className="font-playfair text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-carbon leading-[1.1] tracking-tight animate-fade-in-up stagger-2">
-            Comunicación estratégica para marcas que quieren crecer{" "}
-            <span className="text-sage italic">con dirección</span>
+          <h1 className="font-heading text-4xl md:text-5xl lg:text-[3.5rem] font-bold text-carbon leading-[1.1] tracking-tight animate-fade-in-up stagger-2">
+            Comunicación estratégica para marcas que quieren crecer con dirección
           </h1>
 
           <p className="text-lg text-carbon/75 leading-relaxed max-w-lg animate-fade-in-up stagger-3" style={{ maxWidth: "65ch" }}>
@@ -42,22 +41,6 @@ export default function Hero() {
             >
               Ver servicios
             </a>
-          </div>
-
-          <div className="flex gap-10 pt-2 animate-fade-in-up stagger-5">
-            {[
-              { num: "+8", label: "años liderando procesos" },
-              { num: "+5", label: "años con emprendedoras" },
-              { num: "+4", label: "años de emprendimiento" },
-            ].map((stat, i) => (
-              <div key={i} className="relative">
-                {i > 0 && (
-                  <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-px h-8 bg-gold/25" />
-                )}
-                <p className="font-playfair text-3xl font-bold text-sage">{stat.num}</p>
-                <p className="text-xs text-carbon/65 mt-1 leading-snug">{stat.label}</p>
-              </div>
-            ))}
           </div>
         </div>
 

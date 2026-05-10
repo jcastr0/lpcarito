@@ -1,62 +1,83 @@
 "use client";
 
+import Image from "next/image";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const pilares = [
-  { label: "Experiencia real" },
-  { label: "Liderazgo" },
-  { label: "Emprendimiento" },
-  { label: "Tecnología" },
-  { label: "Comunicación" },
-  { label: "Comunidad" },
+  {
+    numero: "01",
+    titulo: "Experiencia, no teoría",
+    texto:
+      "Más de 8 años liderando procesos reales en gestión humana, administración y dirección estratégica.",
+  },
+  {
+    numero: "02",
+    titulo: "Emprendedora como tú",
+    texto:
+      "Lidero mi propio emprendimiento. Entiendo los retos porque los vivo cada día.",
+  },
+  {
+    numero: "03",
+    titulo: "Comunidad que sostiene",
+    texto:
+      "Con Emprendiendo Juntas construimos red. No creces sola, creces acompañada.",
+  },
 ];
 
 export default function Diferencial() {
   const containerRef = useScrollReveal();
 
   return (
-    <section className="py-32 bg-carbon text-white relative overflow-hidden" ref={containerRef}>
+    <section className="py-28 bg-carbon text-white relative overflow-hidden" ref={containerRef}>
       <div className="absolute inset-0 bg-gradient-to-br from-carbon via-carbon-light/30 to-carbon" />
       <div className="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-sage/4 rounded-full blur-[150px]" />
-      <div className="absolute bottom-[-20%] left-[-10%] w-[400px] h-[400px] bg-gold/3 rounded-full blur-[120px]" />
 
       <div className="relative max-w-6xl mx-auto px-6">
-        <div className="grid md:grid-cols-2 gap-20 items-center">
-          <div className="space-y-8">
-            <p className="text-gold font-semibold text-[10px] tracking-[0.2em] uppercase" data-reveal>
+        <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <p className="text-gold-light font-semibold text-[10px] tracking-[0.2em] uppercase mb-5" data-reveal>
               Diferencial
             </p>
-            <h2 className="font-playfair text-3xl md:text-[2.75rem] font-bold leading-tight" data-reveal data-reveal-delay="80">
-              ¿Qué hace diferente este{" "}
-              <span className="text-sage-light italic">enfoque</span>?
+            <h2 className="font-heading text-3xl md:text-[2.75rem] font-bold leading-tight mb-8" data-reveal data-reveal-delay="80">
+              No acompaño desde la teoría. Acompaño desde lo vivido.
             </h2>
-            <p className="text-white/75 leading-relaxed text-lg" data-reveal data-reveal-delay="160">
-              No acompaño únicamente desde la teoría. Integro experiencia real,
-              liderazgo, emprendimiento, tecnología, comunicación y construcción
-              de comunidad.
-            </p>
-            <div className="w-16 h-[1px] bg-gold/40" data-reveal data-reveal-delay="200" />
-            <p className="text-white/60 leading-relaxed" data-reveal data-reveal-delay="240">
-              La propuesta une estrategia, humanidad, estructura, comunicación y
-              dirección clara para crear procesos sostenibles de crecimiento.
-            </p>
+
+            <div className="space-y-8">
+              {pilares.map((pilar, i) => (
+                <div
+                  key={pilar.numero}
+                  data-reveal
+                  data-reveal-delay={String(120 + i * 100)}
+                  className="flex gap-5 group"
+                >
+                  <span className="text-sage-light/40 font-heading text-2xl font-bold shrink-0 mt-0.5 group-hover:text-sage-light transition-colors duration-500">
+                    {pilar.numero}
+                  </span>
+                  <div>
+                    <h3 className="font-semibold text-white mb-1.5 text-[1.05rem]">
+                      {pilar.titulo}
+                    </h3>
+                    <p className="text-white/55 leading-relaxed text-sm">
+                      {pilar.texto}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-            {pilares.map((pilar, i) => (
-              <div
-                key={pilar.label}
-                data-reveal
-                data-reveal-delay={String(i * 80)}
-                className="p-1 rounded-[1.25rem] bg-white/[0.03] ring-1 ring-white/[0.06] hover:ring-sage/30 transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]"
-              >
-                <div className="bg-white/[0.04] backdrop-blur-sm rounded-[calc(1.25rem-0.25rem)] p-5 text-center shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] hover:bg-sage/10 transition-colors duration-500">
-                  <p className="text-sm font-medium text-white/75">
-                    {pilar.label}
-                  </p>
-                </div>
+          <div className="hidden md:block" data-reveal data-reveal-delay="200">
+            <div className="p-2 rounded-[2rem] bg-white/[0.04] ring-1 ring-white/[0.08]">
+              <div className="w-full aspect-[4/5] rounded-[calc(2rem-0.5rem)] overflow-hidden relative">
+                <Image
+                  src="/carito_teach.png"
+                  alt="Carolina Granados facilitando un taller de estrategia en Emprendiendo Juntas"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </div>

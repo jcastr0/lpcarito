@@ -6,13 +6,13 @@ export default function CTAFinal() {
   const containerRef = useScrollReveal();
 
   return (
-    <section id="contacto" className="py-32 bg-sage relative overflow-hidden" ref={containerRef}>
+    <section id="contacto" className="py-28 bg-sage relative overflow-hidden" ref={containerRef}>
       <div className="absolute inset-0 bg-gradient-to-br from-sage via-sage-dark/80 to-sage" />
       <div className="absolute top-[-30%] left-[-10%] w-[500px] h-[500px] bg-white/4 rounded-full blur-[150px]" />
       <div className="absolute bottom-[-30%] right-[-10%] w-[600px] h-[600px] bg-white/4 rounded-full blur-[150px]" />
 
       <div className="relative max-w-3xl mx-auto px-6 text-center space-y-10">
-        <h2 className="font-playfair text-3xl md:text-5xl font-bold text-white leading-tight" data-reveal>
+        <h2 className="font-heading text-3xl md:text-5xl font-bold text-white leading-tight" data-reveal>
           ¿Lista para crecer con estrategia y dirección?
         </h2>
         <p className="text-white/70 text-lg max-w-xl mx-auto leading-relaxed" data-reveal data-reveal-delay="80">
@@ -38,7 +38,7 @@ export default function CTAFinal() {
             </span>
           </a>
           <a
-            href="mailto:contacto@carolinagranados.com"
+            href="mailto:info@emprendiendojuntas.com"
             className="bg-transparent border border-white/30 text-white font-bold px-8 py-4 rounded-full hover:bg-white/10 active:scale-[0.97] transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]"
           >
             Enviar correo

@@ -7,7 +7,7 @@ export default function SobreMi() {
   const containerRef = useScrollReveal();
 
   return (
-    <section id="sobre-mi" className="py-32 bg-white" ref={containerRef}>
+    <section id="sobre-mi" className="py-24 bg-white" ref={containerRef}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-20 items-center">
           <div className="relative" data-reveal>
@@ -22,28 +22,21 @@ export default function SobreMi() {
                 />
               </div>
             </div>
-            <div className="absolute -bottom-5 -right-5 p-1 rounded-[1.25rem] bg-sage/90 ring-1 ring-sage shadow-lg" data-reveal data-reveal-delay="200">
-              <div className="rounded-[calc(1.25rem-0.25rem)] bg-sage px-6 py-5 text-white">
-                <p className="font-playfair text-3xl font-bold">+8</p>
-                <p className="text-sm text-white/75 mt-0.5">años de experiencia</p>
-              </div>
-            </div>
           </div>
 
           <div className="space-y-7">
             <p className="text-sage font-semibold text-[10px] tracking-[0.2em] uppercase" data-reveal>
               Sobre mí
             </p>
-            <h2 className="font-playfair text-3xl md:text-[2.75rem] font-bold text-carbon leading-tight" data-reveal data-reveal-delay="80">
-              Leidy Carolina{" "}
-              <span className="text-sage italic">Granados Celis</span>
+            <h2 className="font-heading text-3xl md:text-[2.75rem] font-bold text-carbon leading-tight" data-reveal data-reveal-delay="80">
+              Leidy Carolina Granados Celis
             </h2>
             <p className="text-lg text-carbon/75 leading-relaxed" data-reveal data-reveal-delay="120">
               Estratega en comunicación, liderazgo y crecimiento de marca para
               emprendedoras y proyectos con propósito.
             </p>
             <p className="text-carbon/70 leading-relaxed" data-reveal data-reveal-delay="160">
-              Próxima a graduarse como Técnico Profesional en Producción de
+              Candidata a Técnico Profesional en Producción de
               Contenidos Informativos y estudiante de Comunicación Social.
               Integra experiencia corporativa, tecnológica y emprendedora para
               acompañar procesos de crecimiento con una visión estratégica,

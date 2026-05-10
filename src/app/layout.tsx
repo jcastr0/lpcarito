@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Playfair_Display, Poppins } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const heading = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  variable: "--font-heading",
   display: "swap",
 });
 
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`${playfair.variable} ${poppins.variable}`}>
+    <html lang="es" className={`${heading.variable} ${poppins.variable}`}>
       <body className="min-h-full flex flex-col font-poppins bg-beige text-carbon antialiased">
         {children}
       </body>
