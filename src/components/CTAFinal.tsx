@@ -22,7 +22,7 @@ export default function CTAFinal() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4" data-reveal data-reveal-delay="160">
           <a
-            href="https://wa.me/573001234567?text=Hola%20Carolina,%20me%20interesa%20una%20asesor%C3%ADa"
+            href="https://wa.me/573013528537?text=Hola%20Carolina,%20me%20interesa%20una%20asesor%C3%ADa"
             target="_blank"
             rel="noopener noreferrer"
             className="group bg-white text-sage font-bold pl-7 pr-5 py-4 rounded-full hover:bg-beige active:scale-[0.97] transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] inline-flex items-center justify-center gap-3"

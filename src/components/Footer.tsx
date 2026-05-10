@@ -37,7 +37,7 @@ export default function Footer() {
                 <span className="text-white/45"> — Marca principal</span>
               </li>
               <li>
-                <span className="text-gold-light">Emprendiendo Juntas</span>
+                <a href="https://emprendiendojuntas.com.co" target="_blank" rel="noopener noreferrer" className="text-gold-light hover:text-gold transition-colors duration-300">Emprendiendo Juntas</a>
                 <span className="text-white/45"> — Comunidad</span>
               </li>
               <li>
