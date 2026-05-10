@@ -77,10 +77,6 @@ export default function Testimonios() {
             </div>
           ))}
         </div>
-
-        <p className="text-center text-carbon/30 text-xs mt-10">
-          * Testimonios de ejemplo — reemplazar con testimonios reales.
-        </p>
       </div>
     </section>
   );
