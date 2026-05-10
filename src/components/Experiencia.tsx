@@ -25,7 +25,7 @@ const formaciones = [
   "Producción de Contenidos Informativos",
   "Contaduría Pública",
   "Gestión Contable",
-  "Programación y Análisis de Sistemas",
+  "Análisis y Programación de Computadores",
   "Marketing Digital",
   "Transformación Digital",
   "Gestión Comercial",

@@ -50,7 +50,7 @@ export default function SobreMi() {
                 "Transformación digital",
                 "Gestión comercial",
                 "Contaduría Pública",
-                "Programación",
+                "Análisis y Programación de Computadores",
               ].map((skill) => (
                 <div key={skill} className="flex items-center gap-2.5 text-sm text-carbon/70">
                   <span className="w-1 h-1 rounded-full bg-gold shrink-0" />
