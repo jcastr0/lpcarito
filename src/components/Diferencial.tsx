@@ -6,21 +6,21 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const pilares = [
   {
     numero: "01",
-    titulo: "Experiencia, no teoría",
+    titulo: "Más de 10 años de experiencia real",
     texto:
-      "Más de 8 años liderando procesos reales en gestión humana, administración y dirección estratégica.",
+      "Liderando procesos en gestión humana, administración y dirección estratégica. No acompaño desde la teoría, acompaño desde lo vivido.",
   },
   {
     numero: "02",
-    titulo: "Emprendedora como tú",
+    titulo: "También he estado en tu lugar",
     texto:
-      "Lidero mi propio emprendimiento. Entiendo los retos porque los vivo cada día.",
+      "Durante 4 años construí mi propio emprendimiento. Viví los retos, aprendizajes y decisiones que implica emprender desde cero, y esa experiencia hoy me permite acompañar desde lo real.",
   },
   {
     numero: "03",
-    titulo: "Comunidad que sostiene",
+    titulo: "Crecer en comunidad transforma",
     texto:
-      "Con Emprendiendo Juntas construimos red. No creces sola, creces acompañada.",
+      "Con Emprendiendo Juntas construimos una red de apoyo, crecimiento y conexión real. Acompaño emprendedoras entendiendo sus desafíos porque camino cerca de sus procesos cada día.",
   },
 ];
 

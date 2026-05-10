@@ -41,7 +41,7 @@ export default function Footer() {
                 <span className="text-white/45"> (Comunidad)</span>
               </li>
               <li>
-                <span className="text-white/55">Susurros</span>
+                <a href="https://www.instagram.com/channel/Abara53WsIfMCCPv/?igsh=OG8waXVvMGpiNjJ5" target="_blank" rel="noopener noreferrer" className="text-white/55 hover:text-sage-light transition-colors duration-300">Susurros que Sanan</a>
                 <span className="text-white/45"> (Bienestar emocional)</span>
               </li>
             </ul>
