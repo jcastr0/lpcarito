@@ -30,13 +30,13 @@ export default function Diferencial() {
               ¿Qué hace diferente este{" "}
               <span className="text-sage-light italic">enfoque</span>?
             </h2>
-            <p className="text-white/60 leading-relaxed text-lg" data-reveal data-reveal-delay="160">
+            <p className="text-white/75 leading-relaxed text-lg" data-reveal data-reveal-delay="160">
               No acompaño únicamente desde la teoría. Integro experiencia real,
               liderazgo, emprendimiento, tecnología, comunicación y construcción
               de comunidad.
             </p>
             <div className="w-16 h-[1px] bg-gold/40" data-reveal data-reveal-delay="200" />
-            <p className="text-white/40 leading-relaxed" data-reveal data-reveal-delay="240">
+            <p className="text-white/60 leading-relaxed" data-reveal data-reveal-delay="240">
               La propuesta une estrategia, humanidad, estructura, comunicación y
               dirección clara para crear procesos sostenibles de crecimiento.
             </p>

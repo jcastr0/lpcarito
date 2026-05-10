@@ -19,7 +19,7 @@ export default function Hero() {
             <span className="text-sage italic">con dirección</span>
           </h1>
 
-          <p className="text-lg text-carbon/60 leading-relaxed max-w-lg animate-fade-in-up stagger-3" style={{ maxWidth: "65ch" }}>
+          <p className="text-lg text-carbon/75 leading-relaxed max-w-lg animate-fade-in-up stagger-3" style={{ maxWidth: "65ch" }}>
             Liderazgo, estrategia de contenido y acompañamiento profesional
             desde una visión humana, organizada y auténtica.
           </p>
@@ -27,7 +27,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in-up stagger-4">
             <a
               href="#contacto"
-              className="group relative bg-sage text-white font-semibold pl-8 pr-6 py-4 rounded-full hover:bg-sage-dark active:scale-[0.97] transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] inline-flex items-center gap-3 text-center justify-center"
+              className="group relative bg-sage text-white font-semibold pl-8 pr-6 py-4 rounded-full hover:bg-sage-dark active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] inline-flex items-center gap-3 text-center justify-center"
             >
               Solicitar asesoría
               <span className="w-8 h-8 rounded-full bg-white/15 flex items-center justify-center group-hover:translate-x-1 group-hover:-translate-y-[1px] group-hover:scale-105 transition-transform duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]">
@@ -38,7 +38,7 @@ export default function Hero() {
             </a>
             <a
               href="#servicios"
-              className="border border-carbon/15 text-carbon font-semibold px-8 py-4 rounded-full hover:border-sage hover:text-sage active:scale-[0.97] transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] text-center"
+              className="border border-carbon/15 text-carbon font-semibold px-8 py-4 rounded-full hover:border-sage hover:text-sage active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sage transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] text-center"
             >
               Ver servicios
             </a>

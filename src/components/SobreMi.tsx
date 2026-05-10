@@ -38,7 +38,7 @@ export default function SobreMi() {
               Leidy Carolina{" "}
               <span className="text-sage italic">Granados Celis</span>
             </h2>
-            <p className="text-lg text-carbon/60 leading-relaxed" data-reveal data-reveal-delay="120">
+            <p className="text-lg text-carbon/75 leading-relaxed" data-reveal data-reveal-delay="120">
               Estratega en comunicación, liderazgo y crecimiento de marca para
               emprendedoras y proyectos con propósito.
             </p>
@@ -59,7 +59,7 @@ export default function SobreMi() {
                 "Contaduría Pública",
                 "Programación",
               ].map((skill) => (
-                <div key={skill} className="flex items-center gap-2.5 text-sm text-carbon/60">
+                <div key={skill} className="flex items-center gap-2.5 text-sm text-carbon/70">
                   <span className="w-1 h-1 rounded-full bg-gold shrink-0" />
                   {skill}
                 </div>

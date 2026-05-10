@@ -44,7 +44,7 @@ export default function Testimonios() {
               key={testimonio.nombre}
               data-reveal
               data-reveal-delay={String(i * 100)}
-              className="p-1.5 rounded-[1.5rem] bg-carbon/[0.02] ring-1 ring-carbon/[0.04]"
+              className="p-1.5 rounded-[1.5rem] bg-carbon/[0.02] ring-1 ring-carbon/[0.04] hover:ring-sage/20 transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]"
             >
               <div className="bg-beige-light/80 rounded-[calc(1.5rem-0.375rem)] p-8 shadow-[inset_0_1px_1px_rgba(255,255,255,0.5)] h-full flex flex-col">
                 <svg

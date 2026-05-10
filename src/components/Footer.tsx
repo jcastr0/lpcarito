@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-carbon text-white/50 py-16">
+    <footer className="bg-carbon text-white/60 py-16">
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
@@ -34,22 +34,22 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <span className="text-sage-light">El Vlog de Carito</span>
-                <span className="text-white/30"> — Marca principal</span>
+                <span className="text-white/45"> — Marca principal</span>
               </li>
               <li>
                 <span className="text-gold-light">Emprendiendo Juntas</span>
-                <span className="text-white/30"> — Comunidad</span>
+                <span className="text-white/45"> — Comunidad</span>
               </li>
               <li>
-                <span className="text-white/40">Susurros</span>
-                <span className="text-white/30"> — Bienestar emocional</span>
+                <span className="text-white/55">Susurros</span>
+                <span className="text-white/45"> — Bienestar emocional</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/30">
+          <p className="text-xs text-white/45">
             © {new Date().getFullYear()} Leidy Carolina Granados Celis. Todos los
             derechos reservados.
           </p>

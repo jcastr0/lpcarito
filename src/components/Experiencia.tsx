@@ -83,7 +83,7 @@ export default function Experiencia() {
               {formaciones.map((formacion) => (
                 <span
                   key={formacion}
-                  className="bg-white ring-1 ring-carbon/8 text-carbon/60 text-sm px-4 py-2.5 rounded-full hover:ring-sage hover:text-sage transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] cursor-default"
+                  className="bg-white ring-1 ring-carbon/8 text-carbon/75 text-sm px-4 py-2.5 rounded-full hover:ring-sage hover:text-sage transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] cursor-default"
                 >
                   {formacion}
                 </span>

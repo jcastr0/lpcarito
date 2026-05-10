@@ -28,7 +28,7 @@ export default function Header() {
       } rounded-full`}
     >
       <nav className="px-6 py-3 flex items-center justify-between">
-        <a href="#" className="font-playfair text-xl font-bold text-carbon tracking-tight">
+        <a href="/" className="font-playfair text-xl font-bold text-carbon tracking-tight">
           Carolina <span className="text-sage">Granados</span>
         </a>
 
@@ -37,7 +37,7 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-carbon/60 hover:text-sage transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
+              className="text-sm font-medium text-carbon/70 hover:text-sage transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
             >
               {link.label}
             </a>
