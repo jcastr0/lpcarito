@@ -33,16 +33,16 @@ export default function Footer() {
             <p className="font-semibold text-white text-xs tracking-[0.15em] uppercase mb-4">Ecosistema</p>
             <ul className="space-y-3 text-sm">
               <li>
-                <span className="text-sage-light">El Vlog de Carito</span>
-                <span className="text-white/45"> (Marca principal)</span>
-              </li>
-              <li>
                 <a href="https://emprendiendojuntas.com.co" target="_blank" rel="noopener noreferrer" className="text-gold-light hover:text-gold transition-colors duration-300">Emprendiendo Juntas</a>
                 <span className="text-white/45"> (Comunidad)</span>
               </li>
               <li>
                 <a href="https://www.instagram.com/channel/Abara53WsIfMCCPv/?igsh=OG8waXVvMGpiNjJ5" target="_blank" rel="noopener noreferrer" className="text-white/55 hover:text-sage-light transition-colors duration-300">Susurros que Sanan</a>
-                <span className="text-white/45"> (Bienestar emocional)</span>
+                <span className="text-white/45"> (Contenido emocional)</span>
+              </li>
+              <li>
+                <span className="text-white/55">Vlog de Carito</span>
+                <span className="text-white/45"> (Storytelling)</span>
               </li>
             </ul>
           </div>
