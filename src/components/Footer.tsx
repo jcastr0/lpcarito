@@ -55,7 +55,9 @@ export default function Footer() {
           </p>
           <div className="flex gap-3">
             <a
-              href="#"
+              href="https://www.instagram.com/elvlogdecarito"
+              target="_blank"
+              rel="noopener noreferrer"
               aria-label="Instagram"
               className="w-9 h-9 rounded-full bg-white/6 ring-1 ring-white/8 flex items-center justify-center hover:bg-sage hover:ring-sage transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]"
             >
