@@ -14,8 +14,8 @@ export default function SobreMi() {
             <div className="p-2 rounded-[2rem] bg-sage/5 ring-1 ring-sage/10">
               <div className="w-full aspect-[4/5] rounded-[calc(2rem-0.5rem)] overflow-hidden relative">
                 <Image
-                  src="/caritopro.png"
-                  alt="Lady Carolina Granados Celis en su oficina"
+                  src="/carito-desk.png"
+                  alt="Lady Carolina Granados Celis trabajando en su escritorio"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 50vw"

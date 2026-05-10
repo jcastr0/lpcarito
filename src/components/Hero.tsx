@@ -65,7 +65,7 @@ export default function Hero() {
           <div className="p-2 rounded-[2rem] bg-sage/5 ring-1 ring-sage/10">
             <div className="w-80 h-[26rem] rounded-[calc(2rem-0.5rem)] overflow-hidden relative">
               <Image
-                src="/caritopro.png"
+                src="/carolina-hero.png"
                 alt="Lady Carolina Granados Celis"
                 fill
                 className="object-cover object-top"
