@@ -50,7 +50,7 @@ export default function Footer() {
 
         <div className="border-t border-white/8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-white/30">
-            © {new Date().getFullYear()} Lady Carolina Granados Celis. Todos los
+            © {new Date().getFullYear()} Leidy Carolina Granados Celis. Todos los
             derechos reservados.
           </p>
           <div className="flex gap-3">

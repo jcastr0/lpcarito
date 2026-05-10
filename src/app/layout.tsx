@@ -16,11 +16,11 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Lady Carolina Granados Celis — Comunicación Estratégica & Liderazgo",
+  title: "Leidy Carolina Granados Celis — Comunicación Estratégica & Liderazgo",
   description:
     "Estratega en comunicación, liderazgo y crecimiento de marca para emprendedoras y proyectos con propósito.",
   openGraph: {
-    title: "Lady Carolina Granados Celis",
+    title: "Leidy Carolina Granados Celis",
     description:
       "Comunicación estratégica para marcas y emprendedoras que quieren crecer con dirección.",
     type: "website",

@@ -15,7 +15,7 @@ export default function SobreMi() {
               <div className="w-full aspect-[4/5] rounded-[calc(2rem-0.5rem)] overflow-hidden relative">
                 <Image
                   src="/carito-desk.png"
-                  alt="Lady Carolina Granados Celis trabajando en su escritorio"
+                  alt="Leidy Carolina Granados Celis trabajando en su escritorio"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -35,7 +35,7 @@ export default function SobreMi() {
               Sobre mí
             </p>
             <h2 className="font-playfair text-3xl md:text-[2.75rem] font-bold text-carbon leading-tight" data-reveal data-reveal-delay="80">
-              Lady Carolina{" "}
+              Leidy Carolina{" "}
               <span className="text-sage italic">Granados Celis</span>
             </h2>
             <p className="text-lg text-carbon/60 leading-relaxed" data-reveal data-reveal-delay="120">
