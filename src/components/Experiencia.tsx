@@ -66,7 +66,7 @@ export default function Experiencia() {
                   <h4 className="font-playfair text-lg font-bold text-carbon mb-2">
                     {exp.titulo}
                   </h4>
-                  <p className="text-carbon/50 text-sm leading-relaxed">
+                  <p className="text-carbon/70 text-sm leading-relaxed">
                     {exp.descripcion}
                   </p>
                 </div>

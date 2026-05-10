@@ -65,7 +65,7 @@ export default function ParaQuienEs() {
                 <h3 className="font-playfair text-xl font-bold text-carbon mb-3">
                   {item.title}
                 </h3>
-                <p className="text-carbon/55 leading-relaxed text-[0.95rem]">
+                <p className="text-carbon/70 leading-relaxed text-[0.95rem]">
                   {item.description}
                 </p>
               </div>

@@ -54,12 +54,12 @@ export default function Testimonios() {
                 >
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11h4v10H0z" />
                 </svg>
-                <p className="text-carbon/60 leading-relaxed mb-8 italic flex-1 text-[0.95rem]">
+                <p className="text-carbon/80 leading-relaxed mb-8 italic flex-1 text-[0.95rem]">
                   &ldquo;{testimonio.texto}&rdquo;
                 </p>
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-sage/10 ring-1 ring-sage/10 flex items-center justify-center">
-                    <span className="text-sage font-bold text-xs">
+                  <div className="w-10 h-10 rounded-full bg-sage/15 ring-1 ring-sage/15 flex items-center justify-center">
+                    <span className="text-sage-dark font-bold text-xs">
                       {testimonio.nombre
                         .split(" ")
                         .map((n) => n[0])
@@ -70,7 +70,7 @@ export default function Testimonios() {
                     <p className="font-semibold text-carbon text-sm">
                       {testimonio.nombre}
                     </p>
-                    <p className="text-carbon/40 text-xs">{testimonio.rol}</p>
+                    <p className="text-carbon/55 text-xs">{testimonio.rol}</p>
                   </div>
                 </div>
               </div>

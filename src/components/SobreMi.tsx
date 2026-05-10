@@ -42,7 +42,7 @@ export default function SobreMi() {
               Estratega en comunicación, liderazgo y crecimiento de marca para
               emprendedoras y proyectos con propósito.
             </p>
-            <p className="text-carbon/50 leading-relaxed" data-reveal data-reveal-delay="160">
+            <p className="text-carbon/70 leading-relaxed" data-reveal data-reveal-delay="160">
               Próxima a graduarse como Técnico Profesional en Producción de
               Contenidos Informativos y estudiante de Comunicación Social.
               Integra experiencia corporativa, tecnológica y emprendedora para

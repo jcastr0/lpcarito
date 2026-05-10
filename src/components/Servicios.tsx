@@ -39,7 +39,7 @@ export default function Servicios() {
           <h2 className="font-playfair text-3xl md:text-[2.75rem] font-bold text-carbon mb-5 leading-tight">
             ¿Cómo puedo ayudarte?
           </h2>
-          <p className="text-carbon/55 max-w-2xl mx-auto text-[0.95rem]">
+          <p className="text-carbon/70 max-w-2xl mx-auto text-[0.95rem]">
             Servicios diseñados para emprendedoras y proyectos que quieren
             crecer con estrategia, claridad y propósito.
           </p>
@@ -59,13 +59,13 @@ export default function Servicios() {
                 <h3 className="font-playfair text-2xl font-bold text-carbon mt-4 mb-4">
                   {servicio.title}
                 </h3>
-                <p className="text-carbon/55 leading-relaxed mb-8 text-[0.95rem]">
+                <p className="text-carbon/70 leading-relaxed mb-8 text-[0.95rem]">
                   {servicio.description}
                 </p>
 
                 <ul className="space-y-3 mb-8 flex-1">
                   {servicio.features.map((feature) => (
-                    <li key={feature} className="flex items-center gap-3 text-sm text-carbon/65">
+                    <li key={feature} className="flex items-center gap-3 text-sm text-carbon/75">
                       <span className="w-1 h-1 rounded-full bg-sage shrink-0" />
                       {feature}
                     </li>

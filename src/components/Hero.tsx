@@ -55,7 +55,7 @@ export default function Hero() {
                   <span className="absolute -left-5 top-1/2 -translate-y-1/2 w-px h-8 bg-gold/25" />
                 )}
                 <p className="font-playfair text-3xl font-bold text-sage">{stat.num}</p>
-                <p className="text-xs text-carbon/50 mt-1 leading-snug">{stat.label}</p>
+                <p className="text-xs text-carbon/65 mt-1 leading-snug">{stat.label}</p>
               </div>
             ))}
           </div>
